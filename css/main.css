@@ -1,15 +1,21 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
-
+body{
+    background:url("../images/grass.jpg");
+}
 h1{
     font-family: 'Black Han Sans', sans-serif;
-    background-color: green;
+    background-color: gray;
     color : white;
     text-shadow: 7px -7px 7px black;
-    margin : 20px;
+    margin : auto;
     padding : 20px 10px;
     text-align: center;
     font-size: 5em;
+    width: 30%;
+}
+button{
+    margin : auto;
 }
 #container{
 
