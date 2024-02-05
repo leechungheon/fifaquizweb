@@ -1,7 +1,12 @@
 body{
+    background-image: url('../images/grass.jpg');
+}
+#container{
     text-align: center;
     width : 60%;
+    height : 100%;
     margin: auto;
+    background-color: white;
 }
 h1{
     font-weight : bold;
@@ -11,4 +16,14 @@ span{
     text-align: right;
     color : gray;
     font-style: italic;
+}
+ol{
+    list-style-type: decimal;
+    text-align: left;
+}
+#quiz{
+    font-weight: bold;
+}
+#quizradio{
+    display: flex;
 }
